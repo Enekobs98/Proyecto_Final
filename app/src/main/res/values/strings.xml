@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ProyectoFinal</string>
+    <string name="app_name">Superliga Orange</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Clasificación</string>
+    <string name="tab_text_2">Estadisticas</string>
+    <string name="tab_text_3">Equipos</string>
 </resources>
