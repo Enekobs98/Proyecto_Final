@@ -2,8 +2,8 @@
     <string name="app_name">Superliga Orange</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="Clasificación">Clasificación</string>
-    <string name="Estadisticas">Estadisticas</string>
-    <string name="Equipos">Equipos</string>
+    <string name="Estadisticas">Partidos</string>
+    <string name="Equipos">Estadisticas</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

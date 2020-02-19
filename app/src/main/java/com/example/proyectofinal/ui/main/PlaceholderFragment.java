@@ -13,8 +13,8 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.proyectofinal.Clasificacion;
-import com.example.proyectofinal.Equipos;
 import com.example.proyectofinal.Estadisticas;
+import com.example.proyectofinal.Partidos;
 import com.example.proyectofinal.R;
 
 /**
@@ -34,10 +34,10 @@ public class PlaceholderFragment extends Fragment {
                 fragment = new Clasificacion();
                 break;
             case 2:
-                fragment = new Estadisticas();
+                fragment = new Partidos();
                 break;
             case 3:
-                fragment = new Equipos();
+                fragment = new Estadisticas();
                 break;
         }
 
