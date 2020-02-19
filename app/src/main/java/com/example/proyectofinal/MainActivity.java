@@ -1,5 +1,6 @@
 package com.example.proyectofinal;
 
+import android.net.Uri;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -15,17 +16,22 @@ import android.view.View;
 
 import com.example.proyectofinal.ui.main.SectionsPagerAdapter;
 
-public class Main2Activity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Equipos.OnFragmentInteractionListener, Estadisticas.OnFragmentInteractionListener, Clasificacion.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
+
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
 
     }
 }
