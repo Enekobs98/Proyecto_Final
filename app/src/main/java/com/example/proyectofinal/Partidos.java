@@ -60,6 +60,14 @@ public class Partidos extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        /*
+        if (savedInstanceState == null) {
+            getFragmentManager().beginTransaction()
+                    .add(R.id.container, CardFragment.newInstance())
+                    .commit();
+        }
+        
+         */
     }
 
     @Override
